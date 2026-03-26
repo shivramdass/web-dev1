@@ -44,26 +44,17 @@
             </section>
         </section>
     </div>
-
     <section>
         <h3>Contact Me</h3>
-
         <form action="/submit">
-
-            <label>
-                Email: 
-                <input type="email">
-            </label>
+            <label for="email" >Email: </label> 
+            <input type="email"  placeholder="abcd@xyz.com" id="email">
             <br><br>
-            <label>
-                Password:
-                <input type="password">
-            </label>
+            <label for="password">Password:</label>
+            <input type="password" minlength="8" id="password">
             <br><br>
-            <label>
-                Message:
-                <textarea ></textarea>
-            </label>
+            <label for="message">Message:</label>
+            <textarea id="message" placeholder="Enter your message here..."></textarea>
             <br><br>
             <button type="submit">Submit</button>
             <br><br>
